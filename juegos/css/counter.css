@@ -1,0 +1,210 @@
+/* para hacer fichas para imprimir */
+
+.etiquetas {	font-size: 2vw;	font-weight: 600; }
+
+.titulobarra {	font-size: 2.5vw;	font-weight: 600; }
+
+.fichascrabble {
+	display: inline-block;
+	padding: .25em .4em;
+	cursor: pointer;
+	margin-right: 0.05em;
+	font-weight: 600;
+	line-height: 1;
+	text-align: center;
+	min-width: 3vw;
+	white-space: normal;
+	vertical-align: baseline;
+	border-radius: .25rem;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.18), 0 3px 3px 0
+		rgba(0, 0, 0, 0.15);
+}
+
+.fichascrabble:hover {	cursor: pointer; }
+
+.letrascrabble-sm {	font-size: 1.8vw; }
+.letrascrabble-md {	font-size: 3vw; min-width: 4.5vw;}
+.letrascrabble-lg {	font-size: 4vw; min-width: 6vw; font-weight: 600;}
+.letrascrabble-xl {	font-size: 7vw; }
+
+.fichaserie {
+	display: inline-block;
+	padding: .25em .4em;
+	cursor: pointer;
+	margin-right: 0.05em;
+	font-weight: 600;
+	line-height: 1;
+	text-align: center;
+	min-width: 3vw;
+	white-space: normal;
+	vertical-align: baseline;
+	border-radius: .25rem;
+}
+
+.celdasorteo {
+	border-width: 2px;
+	border-style: dashed;
+	display: inline-block;
+	padding: .25em .4em;
+	font-weight: 600;
+	line-height: 1;
+	text-align: center;
+	min-width: 11vw;
+	white-space: normal;
+	vertical-align: baseline;
+	background-color: #ffffff;
+}
+
+.celdaimagen {
+	border-width: 2px;
+	border-style: dashed;
+	min-height: 25px;
+	background-color: #ffffff;
+}
+
+.celda {
+	border-width: .05em;
+	border-style: dashed;
+	display: inline-block;
+	padding: .25em .4em;
+	margin-top: 18px;
+	cursor: pointer;
+	margin-right: 0.05em;
+	font-weight: 600;
+	line-height: 1;
+	text-align: center;
+
+	white-space: normal;
+	vertical-align: baseline;
+	border-radius: .25rem;
+}
+.c7 {
+	min-width: 7vw;
+	min-height: 7vw;
+	max-width: 7vw;
+	max-height: 7vw;	
+}
+.c9 {
+	min-width: 9vw;
+	min-height: 9vw;
+	max-width: 9vw;
+	max-height: 9vw;	
+}
+.celdainvisible {
+	border-width: .05em;
+	border-style: solid;
+	border-color: transparent;
+	display: inline-block;
+	padding: .25em .4em;
+	cursor: pointer;
+	font-weight: 600;
+	line-height: 1;
+	text-align: center;
+
+	white-space: normal;
+	border-radius: .25rem;
+}
+
+.movilidad, .total {
+	background-color: transparent;
+	position: absolute;
+	z-index: 10;
+}
+
+.numero {position:absolute;	left: 0px;	z-index: 12;}
+
+.numerado {	top:0px;	left: 0px;	position: absolute;	z-index: 11;}
+
+.papel {	background-color: #fff;}
+
+.sombra {	margin-bottom: 20px;	box-shadow: 3px 4px 15px 1px rgba(0, 0, 0, 0.53);}
+
+.invisible {	display: none;}
+
+/* Para imprimir fichas */
+
+.circular-md, .circular-lg {
+	display: inline-block;
+	padding: .25em .4em;
+	font-weight: 600;
+	line-height: 1;
+	text-align: center;
+	white-space: normal;
+	vertical-align: baseline;
+	border-width: .05em;
+	border-style: dotted;
+}
+.circular-md {
+	border-radius: 2.5vw;
+}
+
+.circular-lg {
+	border-radius: 3.5vw;
+}
+
+.esnumero {
+	font-family: 'Patrick Hand SC';
+}
+
+
+/* TEMA LECTORES oxblood  oxb*/
+.oxb 	{	background-color: #76323F;	color: #fff;	border-color: #76323F;} /* Main Primary color */
+.oxbth 	{	background-color: #B87683;	color: #000;	border-color: #B87683;}
+.oxblabel {	background-color: #974F5D;	color: #fff;	border-color: #974F5D;}
+.oxbfondo {	background-color: #F7EBED;}
+.oxbbut2 {	background-color: #440A15;	color: #fff;}
+
+/* TEMA EJEMPLARES lileil  lil*/
+.lil {	background-color: #3B5270;	color: #fff;	border-color: #3B5270;} /* Main Primary color */
+.lilth {	background-color: #78889C;	color: #000;	border-color: #78889C;}
+.lillabel {	background-color: #566A84;	color: #fff;	border-color: #566A84;}.lilfondo {	background-color: #E3DFE6;}.lilbut2 {	background-color: #162C49;	color: #fff;}/* TEMA PRESTAMOS ocris  ocr*/
+.ocr {	background-color: #2f4d1a;	color: #fff;	border-color: #0D2701;} /* Main Primary color */
+.ocrth {	background-color: #7FA86B;	color: #000;	border-color: #7FA86B;}.ocrlabel {	background-color: #436E2E;	color: #fff;	border-color: #436E2E;}.ocrfondo {	background-color: #E8F1E5;}.ocrbut2 {	background-color: #162a11;	color: #fff;}/* TEMA VINO vin*/
+.vin {	background-color: #034127;	color: #fff;	border-color: #034127;} /* Main Primary color */
+.vinth {	background-color: #631215;	color: #fff;	border-color: #631215;}.vinlabel {	background-color: #c0ac9a;	color: #000;	border-color: #c0ac9a;}.vinfondo {	background-color: #facaab;}.vinbut2 {	background-color: #1a1a1a;	color: #fff;}/* TEMA COLACAO cao*/
+.cao {	background-color: #69391F;	color: #fff;	border-color: #69391F;} /* Main Primary color */
+.caoth {	background-color: #A27155;	color: #fff;	border-color: #A27155;}.caolabel {	background-color: #7F5036;	color: #fff;	border-color: #7F5036;}.caofondo {	background-color: #C6987E;}.caobut2 {	background-color: #49210A;	color: #fff;}/* TEMA ORANGEBLUE orb*/
+.orb {	background-color: #FC3F19;	color: #000;	border-color: #FC3F19;} /* Main Primary color */
+.orbth {	background-color: #FF8929;	color: #000;	border-color: #FF8929;}.orblabel {	background-color: #012CAF;	color: #fff;	border-color: #012CAF;}.orbfondo {	background-color: #C7DEFE;}.orbbut2 {	background-color: #1A020F;	color: #fff;}
+
+/* Modifico bootstrap a mi gusto */
+.fld-WARNING {
+	background-color: #FBD51E;
+	color: #000;
+	border-color: #FBD51E;
+}
+.marca {
+	display: inline-block;
+	padding: .25em .4em;
+	font-size: 85%;
+	font-weight: 600;
+	line-height: 1;
+	text-align: center;
+	white-space: normal;
+	vertical-align: baseline;
+	border-radius: .25rem;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.18), 0 3px 3px 0
+		rgba(0, 0, 0, 0.15);
+	transition: color .15s ease-in-out, background-color .15s ease-in-out,
+		border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+a.marca:focus, a.marca:hover {	text-decoration: none}
+
+.marca:empty {	display: none}
+
+.marca {	position: relative;	top: -1px}
+
+.marca-capsula {	padding-right: .6em;	padding-left: .6em;	border-radius: 10rem}
+
+.bertateka {
+	font-family: 'Fontdiner Swanky';
+	font-weight: 600;
+	font-size: 2.5vw;
+	color: #ffeeca;
+	border-color: #C6987E;
+}
+
+
+
+
